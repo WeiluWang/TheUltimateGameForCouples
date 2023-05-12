@@ -50,12 +50,12 @@ function App() {
         "What was my favorite subject in school?",
         "What foreign language would I want to speak fluently?",
         "What was my first paid job?",
-        "Wha am I dreading about the future?",
+        "What am I dreading about the future?",
         "What is something I am not afraid of that most people are?",
         "What am I irrationally afraid of?",
         "What was my least favorite subject in school?",
         "What do I wish I was better at?",
-        "WHat is my favorite month of the year?",
+        "What is my favorite month of the year?",
         "What I always craving?",
         "What was the first movie I saw in theaters?",
         "What is my most commonly used phrased?",
@@ -107,6 +107,7 @@ function App() {
         
         console.log({formData});
         addDoc(collection(db, "SurveyResponse"), formData);
+        alert("Succesfully upoad yur diary! Thanks!")
     } 
 
       const [startDate, setStartDate] = useState(new Date());
@@ -114,20 +115,21 @@ function App() {
     return (
         <div className="b">
             
-            <div className="container">
-                <form onSubmit = {saveAnswer} className="form">
+            <div className="container1">
                     <div className="imgDiv">
                       <img className="img" src={images} alt="Logo" />
-                      
                     </div>
                     <div className="gameDiv">The Ultimate Games for couples</div>
-                    <div className="taskTitle">Task</div>
+                    <div className="drawBtnDiv">
+                      <button className ="taskBtn" onClick = {drawCard}>draw a card</button>
+                    </div>
+                <form onSubmit = {saveAnswer} >
+                    
+
                     <div className="probDiv">
                       <textarea className="task" id="task" ref={inputRef} ></textarea>
                     </div>
-                    <div className="drawBtnDiv">
-                      <Button className ="taskBtn" onClick = {drawCard} variant="primary">draw a card</Button>
-                    </div>
+                    
                     <div className="nameTitle">Name</div>
                     <div>
                       <input className="name" type="text" id="name"></input>
@@ -145,14 +147,8 @@ function App() {
                     />
                     </div>
                     <div className="submitBtnDiv">
-                      <Button className="submitBtn" variant="success">Submit</Button>
+                      <button className="button-74" variant="success" >Submit</button>
                     </div>
-                    
-                    
-                   
-                    
-                    
-                    
                 </form>
             </div>
         </div>

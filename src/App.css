@@ -27,8 +27,8 @@
 .App-link {
   color: #61dafb;
 }
-.container{
-  display: flex;
+.container1{
+  display:flow-root;
   align-items: center;
   justify-content: center;
 }
@@ -46,12 +46,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width:100%;
   margin-top: 35px;
 }
 .img{
   height: 70px;
 }
 .gameDiv{
+  width:100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,35 +71,64 @@
 .nameTitle{
   font-weight: bolder;
   font-size: large;
+  padding-left:  20%;
 }
 
 .diaryTitle{
   font-weight: bolder;
   font-size: large;
    margin-top: 10px;
+   padding-left:  20%;
 }
 .dateTitle{
   margin-top: 10px;
   font-weight: bolder;
   font-size: large;
+  padding-left:  20%;
 }
 
 .drawBtnDiv{
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .taskBtn{
   width:150px;
   margin-top: 20px;
   margin-bottom: 40px;
+  background-color: #91b3e7;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.taskBtn:hover {
+  background-color: #7291e7;
+}
+
+.taskBtn:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
 }
 
 .submitBtnDiv{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .probDiv{
@@ -109,7 +140,7 @@
 }
 .submitBtn{
   width:150px;
-  margin-top: 20px;
+  
 }
 .task{
   border: 1px solid #fa8b8b;
@@ -124,13 +155,13 @@
   line-height: normal;
   color: #282828;
   display: block;
-  width: 70%;
+  width: 40%;
   box-sizing: border-box;
   user-select: auto;
   font-size: 16px;
   padding: 0 6px;
   padding-left: 12px;
-  
+  margin-left: 20%;
 }
 .answer{
   border: 3px solid #fa8b8b;
@@ -139,21 +170,56 @@
   line-height: normal;
   color: #282828;
   display: block;
-  width: 70%;
+  width:40%;
+  margin-left: 20%;
 }
 
 #date{
   border: 3px solid #fa8b8b;
   border-radius: 5px;
+  margin-left: 20%;
 }
 
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.button-74:hover {
+  background-color: #eb9797;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
   }
 }
 
+/* CSS */
+
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
