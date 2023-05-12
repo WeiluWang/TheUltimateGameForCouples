@@ -27,6 +27,126 @@
 .App-link {
   color: #61dafb;
 }
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b{
+  background: linear-gradient(-45deg, #fac7c5, #e73c7e, #f7cfcf, #f19191);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+ .form{
+  width: 80%;
+}
+
+.imgDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+.img{
+  height: 70px;
+}
+.gameDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.taskTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.nameTitle{
+  font-weight: bolder;
+  font-size: large;
+}
+
+.diaryTitle{
+  font-weight: bolder;
+  font-size: large;
+   margin-top: 10px;
+}
+.dateTitle{
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.drawBtnDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskBtn{
+  width:150px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.submitBtnDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.probDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.submitBtn{
+  width:150px;
+  margin-top: 20px;
+}
+.task{
+  border: 1px solid #fa8b8b;
+  border-radius: 5px;
+  width: 500px;
+  height: 100px;
+}
+.name{
+  border: 3px solid #fa8b8b;
+  border-radius: 5px;
+  height: 50px;
+  line-height: normal;
+  color: #282828;
+  display: block;
+  width: 70%;
+  box-sizing: border-box;
+  user-select: auto;
+  font-size: 16px;
+  padding: 0 6px;
+  padding-left: 12px;
+  
+}
+.answer{
+  border: 3px solid #fa8b8b;
+  border-radius: 5px;
+  height: 100px;
+  line-height: normal;
+  color: #282828;
+  display: block;
+  width: 70%;
+}
+
+#date{
+  border: 3px solid #fa8b8b;
+  border-radius: 5px;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +156,4 @@
     transform: rotate(360deg);
   }
 }
+
