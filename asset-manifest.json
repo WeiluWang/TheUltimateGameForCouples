@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TheUltimateGameForCouples/static/css/main.9d4b3447.css",
-    "main.js": "/TheUltimateGameForCouples/static/js/main.152f2a3b.js",
+    "main.css": "/TheUltimateGameForCouples/static/css/main.00be8969.css",
+    "main.js": "/TheUltimateGameForCouples/static/js/main.b37c9a46.js",
     "static/js/787.d0099931.chunk.js": "/TheUltimateGameForCouples/static/js/787.d0099931.chunk.js",
     "index.html": "/TheUltimateGameForCouples/index.html",
-    "main.9d4b3447.css.map": "/TheUltimateGameForCouples/static/css/main.9d4b3447.css.map",
-    "main.152f2a3b.js.map": "/TheUltimateGameForCouples/static/js/main.152f2a3b.js.map",
+    "main.00be8969.css.map": "/TheUltimateGameForCouples/static/css/main.00be8969.css.map",
+    "main.b37c9a46.js.map": "/TheUltimateGameForCouples/static/js/main.b37c9a46.js.map",
     "787.d0099931.chunk.js.map": "/TheUltimateGameForCouples/static/js/787.d0099931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d4b3447.css",
-    "static/js/main.152f2a3b.js"
+    "static/css/main.00be8969.css",
+    "static/js/main.b37c9a46.js"
   ]
 }
