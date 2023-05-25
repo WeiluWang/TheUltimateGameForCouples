@@ -117,9 +117,9 @@ function App() {
             
             <div className="container1">
                     <div className="imgDiv">
-                      <img className="img" src={images} alt="Logo" />
+                      
                     </div>
-                    <div className="gameDiv">The Ultimate Games for couples</div>
+                    <div className="gameDiv">Experience Sharing Challenge</div>
                     <div className="drawBtnDiv">
                       <button className ="taskBtn" onClick = {drawCard}>draw a card</button>
                     </div>
@@ -134,7 +134,7 @@ function App() {
                     <div>
                       <input className="name" type="text" id="name"></input>
                     </div>
-                    <div className="diaryTitle">Feedback</div>
+                    <div className="diaryTitle">Diary</div>
                     <div>
                       <textarea className="answer" type="text" id="answer"></textarea>
                     </div>
