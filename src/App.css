@@ -67,6 +67,11 @@
   font-weight: bolder;
   font-size: x-large;
 }
+.diarySectionTitle{
+  font-weight: bolder;
+  font-size: xx-large;
+  padding-left:  20%;
+}
 
 .nameTitle{
   font-weight: bolder;
