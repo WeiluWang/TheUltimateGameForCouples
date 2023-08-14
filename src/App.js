@@ -8,7 +8,7 @@ import {Button} from 'react-bootstrap';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css'
 import images from './images.png';
-
+import heart from './heart.png';
 
 function App() {
   const [num,setNum] = useState(0);
@@ -84,15 +84,19 @@ function App() {
                       
                     </div>
                     <div className="gameDiv">Experience Sharing Challenge</div>
+                    <div className="probDiv">
+                      <div className="cardIcon">
+                            <img src= {heart}></img>
+                      </div>
+                      <textarea className="task" id="task" ref={inputRef} ></textarea>
+                    </div>
                     <div className="drawBtnDiv">
                       <button className ="taskBtn" onClick = {drawCard}>draw a card</button>
                     </div>
                 <form onSubmit = {saveAnswer} >
                     
 
-                    <div className="probDiv">
-                      <textarea className="task" id="task" ref={inputRef} ></textarea>
-                    </div>
+                    
                     <div className="diarySectionTitle">Diary Feedback</div>
                     <div className="nameTitle">Name</div>
                     <div>

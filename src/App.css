@@ -33,13 +33,20 @@
   justify-content: center;
 }
 .b{
-  background: linear-gradient(-45deg, #fac7c5, #e73c7e, #f7cfcf, #f19191);
+  background:  #fa8b8b;;
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
 }
  .form{
   width: 80%;
+}
+
+.cardIcon{
+  width: 50px;
+  height: 110px;
+  border-color: #282828;
+  margin-right: 40px;
 }
 
 .imgDiv{
@@ -69,6 +76,7 @@
 }
 .diarySectionTitle{
   font-weight: bolder;
+  margin-top: 500px;
   font-size: xx-large;
   padding-left:  20%;
 }
@@ -149,6 +157,7 @@
 }
 .task{
   border: 1px solid #fa8b8b;
+  background-color: #fa8b8b;
   border-radius: 5px;
   width: 500px;
   height: 100px;
@@ -170,6 +179,7 @@
 }
 .answer{
   border: 3px solid #fa8b8b;
+  
   border-radius: 5px;
   height: 100px;
   line-height: normal;
