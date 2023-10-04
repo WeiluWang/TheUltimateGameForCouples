@@ -79,10 +79,8 @@ function App() {
 
     return (
         <div className="b">
-            
             <div className="container1">
                     <div className="imgDiv">
-                      
                     </div>
                     <div className="gameDiv">Chatterbox Opener</div>
                     <div className="probDiv">
