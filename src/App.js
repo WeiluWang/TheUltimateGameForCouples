@@ -9,6 +9,7 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css'
 import images from './images.png';
 import heart from './heart.png';
+import box from './box.png';
 
 function App() {
   const [num,setNum] = useState(0);
@@ -83,13 +84,17 @@ function App() {
                     <div className="imgDiv">
                       
                     </div>
-                    <div className="gameDiv">Experience Sharing Challenge</div>
+                    <div className="gameDiv">Chatterbox Opener</div>
                     <div className="probDiv">
                       <div className="cardIcon">
                             <img src= {heart}></img>
                       </div>
                       <textarea className="task" id="task" ref={inputRef} ></textarea>
+                      
                     </div>
+                    <div className="box">
+                            <img src= {box}></img>
+                      </div>
                     <div className="drawBtnDiv">
                       <button className ="taskBtn" onClick = {drawCard}>draw a card</button>
                     </div>

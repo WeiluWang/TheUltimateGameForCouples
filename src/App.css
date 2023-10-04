@@ -33,7 +33,7 @@
   justify-content: center;
 }
 .b{
-  background:  #fa8b8b;;
+  background:  #ffa19d;;
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
@@ -156,8 +156,8 @@
   
 }
 .task{
-  border: 1px solid #fa8b8b;
-  background-color: #fa8b8b;
+  border: 1px solid #ffa19d;
+  background-color: #ffa19d;
   border-radius: 5px;
   width: 500px;
   height: 100px;
@@ -221,6 +221,9 @@
 .button-74:active {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
+}
+.box{
+  text-align: center;
 }
 
 @media (min-width: 768px) {
