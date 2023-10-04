@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TheUltimateGameForCouples/static/css/main.e8a42453.css",
-    "main.js": "/TheUltimateGameForCouples/static/js/main.5e3a9f7b.js",
-    "static/js/787.d0099931.chunk.js": "/TheUltimateGameForCouples/static/js/787.d0099931.chunk.js",
-    "static/media/box.png": "/TheUltimateGameForCouples/static/media/box.0b60ffc787f3f670e3e3.png",
-    "index.html": "/TheUltimateGameForCouples/index.html",
-    "main.e8a42453.css.map": "/TheUltimateGameForCouples/static/css/main.e8a42453.css.map",
-    "main.5e3a9f7b.js.map": "/TheUltimateGameForCouples/static/js/main.5e3a9f7b.js.map",
-    "787.d0099931.chunk.js.map": "/TheUltimateGameForCouples/static/js/787.d0099931.chunk.js.map"
+    "main.css": "/ChatterboxOpener/static/css/main.e8a42453.css",
+    "main.js": "/ChatterboxOpener/static/js/main.bc134ed4.js",
+    "static/js/787.d0099931.chunk.js": "/ChatterboxOpener/static/js/787.d0099931.chunk.js",
+    "static/media/box.png": "/ChatterboxOpener/static/media/box.0b60ffc787f3f670e3e3.png",
+    "index.html": "/ChatterboxOpener/index.html",
+    "main.e8a42453.css.map": "/ChatterboxOpener/static/css/main.e8a42453.css.map",
+    "main.bc134ed4.js.map": "/ChatterboxOpener/static/js/main.bc134ed4.js.map",
+    "787.d0099931.chunk.js.map": "/ChatterboxOpener/static/js/787.d0099931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8a42453.css",
-    "static/js/main.5e3a9f7b.js"
+    "static/js/main.bc134ed4.js"
   ]
 }
